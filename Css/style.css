@@ -29,16 +29,45 @@
 .textCla {
   color: #f7af13; }
 
+.btn-ex, .btn-rounded {
+  width: 100px;
+  height: 30px;
+  background: linear-gradient(90deg, #ffd230 27%, #ff4300 69%, #ff4b00 71%);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  .btn-ex:hover, .btn-rounded:hover {
+    background-color: #ff4b00;
+    color: #ffd230; }
+
+.btn-rounded {
+  border-radius: 3px; }
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  color: #f7af13;
+  padding: 3px; }
+
+.textCla {
+  color: #f7af13; }
+
+.bgOrange {
+  background-color: #EC7C26; }
+
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1em; }
+  font-size: 2rem; }
 
 h1,
 h2,
 h3 {
   color: #464545;
   font-family: "Roboto", sans-serif;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 500; }
 
 body {
@@ -65,7 +94,7 @@ html {
   border-radius: 3px;
   margin-left: 150px;
   margin-bottom: 10px;
-  font-size: 1em;
+  font-size: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,7 +218,7 @@ nav {
         color: orangered;
         text-decoration: none;
         font-family: "Roboto", sans-serif;
-        font-size: 2em;
+        font-size: 2.54rem;
         font-weight: 200;
         background-image: linear-gradient(currentColor, currentColor);
         background-position: 0% 100%;
@@ -240,7 +269,7 @@ nav {
   border-radius: 3px;
   margin-left: 150px;
   margin-bottom: 10px;
-  font-size: 1em;
+  font-size: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -264,7 +293,7 @@ nav {
   border-top-right-radius: 5px; }
 
 #productos .galeria figure figcaption {
-  font-size: 3em;
+  font-size: 3rem;
   color: #F5F0F0;
   background-color: #0F0E0E; }
 
@@ -278,7 +307,7 @@ nav {
   margin-top: 5px; }
 
 #promo .destacado article p {
-  font-size: 2em;
+  font-size: 2.54rem;
   line-height: 2.3rem;
   padding: 50px;
   margin: 20px auto;
